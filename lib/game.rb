@@ -18,7 +18,7 @@ class Game
     player.receive_damage
   end
 
-  # def turn_switcher
+  def switch_turns
 
 
 end
