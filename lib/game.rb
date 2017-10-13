@@ -12,10 +12,13 @@ class Game
 
   def player_2
     @players.last
-  end 
+  end
 
   def attack(player)
     player.receive_damage
   end
+
+  # def turn_switcher
+
 
 end
