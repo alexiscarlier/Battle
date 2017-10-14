@@ -12,10 +12,11 @@
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
-require_relative 'features/web_helpers'
+
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
+require_relative 'features/web_helpers'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 

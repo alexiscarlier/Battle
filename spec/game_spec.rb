@@ -24,7 +24,17 @@ describe Game do
     end
   end
 
-  # describe '#turn_switcher' do 
-  #   it 'allows the players to switch turns' do
+  describe '#current_turn' do
+    it 'starts as player 1' do
+      expect(game.current_turn).to eq player_1
+    end
+  end
+
+  describe '#switches_turn' do
+    it 'switches the turn' do
+      game.switches_turns
+      expect(game.current_turn).to eq player_2
+    end
+  end 
 
 end
